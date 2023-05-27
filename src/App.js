@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Navbar from "./componant/Navbar";
+import Body from "./componant/Body";
+import Trains from "./componant/Trains";
 
-function App() {
+const App = () => {
+  const [channge, SetChange] = useState(true);
+  const [From, SetFrom] = useState("");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Body SetFrom={SetFrom} channge={channge} SetChange={SetChange} />
+      <Trains From={From} channge={channge} SetChange={SetChange} />
+    </>
   );
-}
+};
 
 export default App;
