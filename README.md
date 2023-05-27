@@ -17,7 +17,8 @@ STEP 1
 Clone the repository: git clone https://github.com/Na-eng-web/Backend-for-Trains.git for Backend.
 
   run command "node datageneratins.js" to populate Data in DataBase.
-	run Backend using npm start.
+     (Add yor DataBase link in code to add Data)
+  run Backend using npm start.
 	
 STEP 2
 
