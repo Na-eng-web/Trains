@@ -1,12 +1,14 @@
 Train Search Project
 
 This project is a train search application that allows users to search for train schedules and book tickets. The application is built using the MERN (MongoDB, Express, React, Node.js) stack, providing a robust and scalable solution for managing train information and ticket bookings.
+--------------------------------------------------------------------------------------------
 
 Features
 
 Train Search: Users can search for trains by specifying the origin and destination stations The application will display the available trains based on the search criteria.
 Auto Data :Data used in this application is Auto Generated. 
- 
+ --------------------------------------------------------------------------------------------
+
 Installation
 Follow the steps below to set up the Train Search project locally:
 
